@@ -1,7 +1,7 @@
 function paragraphSelector() {
-  $('p')
+  return $('p')
 }
 
 function lastImageSelector() {
-  $('img').slice(-1)[0]
+  return $('img').slice(-1)[0]
 }
